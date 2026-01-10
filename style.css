@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1600px;
 }  
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -142,4 +143,34 @@ nav button:hover{
     background-color: #469165;
     border: none;
 }
-
+footer{
+    height: 348px;
+    background-color: #001931;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 60px 120px;
+}
+.footertext{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.social{
+    display: flex;
+    margin-top: 16px;
+    gap: 16px;
+}
+.copyright{
+    border-top: solid 1px white;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
