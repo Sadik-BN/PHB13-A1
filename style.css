@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }    
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -54,3 +55,89 @@ nav button{
 nav button:hover{
     opacity: 1;
 }
+
+
+.hero-container{
+
+    margin: 0;
+    background-image: url(assets/hero-bg.png);
+    height: 600px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+
+    padding: 0;
+}
+.tab{
+    display: flex;
+    gap: 6px;
+    padding: 8px 12px;
+    background-color: white;
+    color: #469165;
+    border-radius: 1000px;
+    margin-top: 115.5px;
+    align-items: center;
+}
+.tabtext{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 8px auto;
+}
+.hero-container div h1{
+    text-align: center;
+    font-size:xx-large;
+    margin: 16px;
+}
+.hero-container div p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+}
+.hero-button-container{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+.b1{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    background-color: #469165;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.b1 .textb1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.b1:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.b2{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.b2 .textb2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.b2:hover{
+    background-color: #469165;
+    border: none;
+}
+
