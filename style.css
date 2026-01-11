@@ -1,43 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 1600px;
-}  
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 
-.navbar{
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 0;
     height: 92px;
 }
-.navlogo{
+
+.navlogo {
     padding-left: 120px;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-right: 0px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-between;
     gap: 32px;
     margin: 34px 0px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-} 
-nav ul li a{
+}
+
+nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
     font-weight: 500;
 }
-nav button{
+
+nav button {
     height: 44px;
     width: 164px;
     margin-top: 24px;
@@ -49,16 +55,18 @@ nav button{
     background-color: #469165;
     color: white;
     font-size: 16px;
-    font-weight:600;
+    font-weight: 600;
     border-radius: 4px;
     opacity: 0.8;
 }
-nav button:hover{
+
+nav button:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 
-.hero-container{
+.hero-container {
 
     margin: 0;
     background-image: url(assets/hero-bg.png);
@@ -69,12 +77,13 @@ nav button:hover{
     background-position: top;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
 
     padding: 0;
 }
-.tab{
+
+.tab {
     display: flex;
     gap: 6px;
     padding: 8px 12px;
@@ -84,30 +93,35 @@ nav button:hover{
     margin-top: 115.5px;
     align-items: center;
 }
-.tabtext{
+
+.tabtext {
     font-size: 16px;
     font-weight: 500;
     margin: 8px auto;
 }
-.hero-container div h1{
+
+.hero-container div h1 {
     text-align: center;
-    font-size:70px;
+    font-size: 50px;
     font-weight: 800;
     text-align: center;
     margin: 16px;
 }
-.hero-container div p{
+
+.hero-container div p {
     text-align: center;
     color: white;
     font-size: 18px;
     line-height: 24px;
 }
-.hero-button-container{
+
+.hero-button-container {
     display: flex;
     gap: 16px;
     margin-top: 32px;
 }
-.b1{
+
+.b1 {
     display: flex;
     gap: 10px;
     justify-content: space-around;
@@ -117,15 +131,19 @@ nav button:hover{
     border: none;
     border-radius: 4px;
 }
-.b1 .textb1{
+
+.b1 .textb1 {
     font-size: 16px;
     font-weight: 600;
 }
-.b1:hover{
+
+.b1:hover {
     background-color: transparent;
     border: 1px solid white;
+    cursor: pointer;
 }
-.b2{
+
+.b2 {
     display: flex;
     gap: 10px;
     justify-content: space-around;
@@ -135,35 +153,44 @@ nav button:hover{
     border: 1px solid white;
     border-radius: 4px;
 }
-.b2 .textb2{
+
+.b2 .textb2 {
     font-size: 16px;
     font-weight: 600;
+
 }
-.b2:hover{
+
+.b2:hover {
     background-color: #469165;
     border: none;
+    cursor: pointer;
 }
-footer{
+
+footer {
     height: 348px;
     background-color: #001931;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-between;
     padding: 120px 120px 60px 120px;
 }
-.footertext{
+
+.footertext {
     color: white;
     font-size: 20px;
     font-weight: 500;
     line-height: 20px;
 }
-.social{
+
+.social {
     display: flex;
     margin-top: 16px;
     gap: 16px;
 }
-.copyright{
+
+.copyright {
     border-top: solid 1px white;
     padding-top: 30px;
     margin-top: 20px;
@@ -173,4 +200,63 @@ footer{
     color: white;
     font-size: 16px;
     font-weight: 400;
+}
+
+.cards {
+    height: 448px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.card-body {
+    padding-top: 30px;
+    height: 153px;
+    text-align: center;
+}
+
+.card-body p {
+    color: #627382;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.card-container {
+    display: flex;
+    height: 300px;
+    gap: 24px;
+}
+
+.card {
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-img {
+    padding: 5px;
+    height: 32px;
+    width: 32px;
+    background-color: #F95555;
+    border-radius: 50%;
+}
+
+.card h3 {
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.card p {
+    color: #627382;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
 }
